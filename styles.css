@@ -3,7 +3,7 @@
     --grid-rows: 1;
 }
 
-#container {
+.container {
     display: grid;
     border: 2px solid black;
     width: 400px;
@@ -19,5 +19,9 @@
 
 .grid-item{
     display: flex;
-    border: 1px solid blue;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.buttons{
+    text-align: center;
 }
